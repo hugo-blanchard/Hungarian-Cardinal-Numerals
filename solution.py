@@ -1,5 +1,7 @@
 import copy
 
+#those variables are the most common cases of the characters corresponding to the first second and third position which will then be edited by the function to fit the case of n
+#the fourth fifth and sixth position (there is not seventh position because n < 1000000) are pretty much a repeat of the first second and third so only the first second and third variables will be used
 first = {0:'nulla', 1:'egy', 2:'kettő', 3:'három', 4:'négy', 5:'öt', 6:'hat', 7:'hét', 8:'nyolc', 9:'kilenc'}
 second = {0:'', 1:'tizen', 2:'huszon', 3:'harminc', 4:'negyven', 5:'ötven', 6:'hatvan', 7:'hetven', 8:'nyolcvan', 9:'kilencven'}
 third = {0:'', 1:'száz', 2:'kétszáz', 3:'háromszáz', 4:'négyszáz', 5:'ötszáz', 6:'hatszáz', 7:'hétszáz', 8:'nyolcszáz', 9:'kilencszáz'}
